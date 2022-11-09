@@ -1,0 +1,104 @@
+
+/*
+body{
+    font-family: 'Roboto';
+font-style: normal;
+color: #212121;
+
+}
+.link  {
+    text-decoration: none;
+}
+.list {
+     list-style: none;
+}
+:root{
+    --dark-background-maine:#2F303A;
+}
+
+.logo-web{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+
+}
+.logo {
+   /* font-family: 'Raleway';*/
+/*font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #000000;
+
+}
+
+.header-link a{
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+        color: #212121;
+}
+.header-link a:hover,
+.header-link a:focus
+ {
+    color: #2196F3;
+}
+.header-contact a {
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+
+}
+.header-contact :hover,
+.header-contact :focus
+{
+    color: #2196F3;
+}
+---------------/*heroi*/-----------------
+/*.heroi {
+        
+background:#2F303A;
+}
+
+
+.heroi-button{
+   
+width: 216px;
+height: 32.33px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+.heroi-button:hover,
+.heroi-button:focus
+{
+background: #188CE8;
+
+}
+-----------/*benefits*/-------------
+/*.benefits{
+    background-color: #2F303A;
+}
