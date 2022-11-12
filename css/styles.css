@@ -17,17 +17,9 @@ body{
     --blue-maine-color: #2196F3;
 }
 /*---------------header----------------*/
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: baseline;
-}
+
 .header-link {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    
     width:  280px;
 }
 
@@ -64,10 +56,7 @@ color: #000000;
  {
     color:var(--blue-maine-color) ;
 }
-.header-contact {
-    display: flex;
-    flex-direction: row;
-}
+
 
 .header-contact-tel,
 .header-contact-email
@@ -77,9 +66,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
-.header-contact-tel{
-    margin-left: 50px;
-}
+
 
 .header-contact :hover,
 .header-contact :focus
@@ -87,13 +74,8 @@ color: #757575;
     color: var(--blue-maine-color);
 }
 /*---------------heroi-----------------*/
-.heroi {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 600px;
-   
-    
+
+.heroi{    
 background:var(--dark-background-maine);
 }
 .heroi-header{
@@ -108,7 +90,7 @@ color: #FFFFFF;
 height: 120px;
 max-width: 696px;
 margin-top: 200px;
-flex-wrap: wrap;
+
 
 }
 
@@ -139,16 +121,8 @@ background: #188CE8;
 }
 
 -----------/*benefits*/-------------
-.benefits{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-.benefits-list{
-    display: flex;
-    flex-direction: row;
 
-}
+
 .benefits-items-heder{
     
 font-weight: 700;
@@ -177,7 +151,7 @@ color: #757575;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
-text-align: center;
+
 letter-spacing: 0.03em;
 
 color: #212121;
@@ -189,7 +163,7 @@ color: #212121;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
-text-align: center;
+
 letter-spacing: 0.03em;
 
 color: #212121;
@@ -202,7 +176,7 @@ font-size: 16px;
 line-height: 19px;
 
 
-text-align: center;
+
 letter-spacing: 0.03em;
 
 color: #212121;
@@ -216,7 +190,7 @@ font-size: 16px;
 line-height: 1.19;
 
 
-text-align: center;
+
 letter-spacing: 0.03em;
 
 color: #757575;
@@ -233,8 +207,7 @@ color: #757575;
     
     }
     .potrfolio-footer {
-        display: flex;
-        flex-direction: column;
+       
         background: #2F303A;
     }
     .footer-adress{
@@ -267,6 +240,7 @@ line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+cursor: pointer;
 }
 
 .potrfolio-nav-button:hover,
@@ -299,5 +273,5 @@ color: #757575;
 }
 
 
-/*------------------------portfolio foter-------------*/
+
 
