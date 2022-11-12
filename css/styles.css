@@ -1,9 +1,9 @@
 
 
 body{
-    font-family: 'Roboto';
-font-style: normal;
-color: #212121;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    color: #212121;
 
 }
 .link  {
@@ -14,6 +14,7 @@ color: #212121;
 }
 :root{
     --dark-background-maine:#2F303A;
+    --blue-maine-color: #2196F3;
 }
 /*---------------header----------------*/
 .header{
@@ -35,17 +36,16 @@ color: #212121;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196F3;
+color:var(--blue-maine-color) ;
 
 }
 .logo {
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: #000000;
 
@@ -53,18 +53,16 @@ color: #000000;
 
 .header-link-items{
    
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
         color: #212121;
 }
 .header-link-items:hover,
 .header-link-items:focus
  {
-    color: #2196F3;
+    color:var(--blue-maine-color) ;
 }
 .header-contact {
     display: flex;
@@ -73,11 +71,9 @@ color: #000000;
 
 .header-contact-tel,
 .header-contact-email
-{font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
+{font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
@@ -88,7 +84,7 @@ color: #757575;
 .header-contact :hover,
 .header-contact :focus
 {
-    color: #2196F3;
+    color: var(--blue-maine-color);
 }
 /*---------------heroi-----------------*/
 .heroi {
@@ -98,14 +94,13 @@ color: #757575;
     height: 600px;
    
     
-background:#2F303A;
+background:var(--dark-background-maine);
 }
 .heroi-header{
-    font-family: 'Roboto';
-font-style: normal;
+    
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -122,14 +117,14 @@ flex-wrap: wrap;
    
 width: 216px;
 height: 50px;
-background: #2196F3;
+background: var(--blue-maine-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 
 text-align: center;
 letter-spacing: 0.06em;
@@ -155,11 +150,10 @@ background: #188CE8;
 
 }
 .benefits-items-heder{
-    font-family: 'Roboto';
-font-style: normal;
+    
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
@@ -167,12 +161,11 @@ color: #212121;
 
 }
 .benefits-items-text{
-    font-family: 'Roboto';
-font-style: normal;
+    
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
-/* or 171% */
+line-height: 1.71;
+
 
 letter-spacing: 0.03em;
 
@@ -181,11 +174,9 @@ color: #757575;
 
 /*----------------------activity-----------------*/
 .activityd-header{
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 
@@ -195,11 +186,9 @@ color: #212121;
 
 /*------------------------------team --------------*/
 .team-header{
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 
@@ -208,8 +197,6 @@ color: #212121;
 }
 
 .team-card{
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
@@ -226,7 +213,7 @@ color: #212121;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 
 
 text-align: center;
@@ -235,16 +222,48 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
+.foter-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 215px;
+    padding-left: 0px;
+    
+    }
+    .potrfolio-footer {
+        display: flex;
+        flex-direction: column;
+        background: #2F303A;
+    }
+    .footer-adress{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-left: 215px;
+    }
+    
+    .logo-footer{
+        font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+        color: #FFFFFF;
+        margin-left: 215px;
+    }
 
 /*----------------------portfolio--------------------------*/
 
 .potrfolio-nav-button{
-    
-font-family: 'Roboto';
-font-style: normal;
+ 
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
@@ -258,11 +277,10 @@ color: #212121;
 }
 
 .potrfolio-items-header{
-    font-family: 'Roboto';
-font-style: normal;
+    
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 
 
 letter-spacing: 0.06em;
@@ -271,15 +289,11 @@ color: #212121;
 
 }
 .potrfolio-items-text{
-    font-family: 'Roboto';
-font-style: normal;
+    
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
-
-
+line-height: 1.87;
 letter-spacing: 0.03em;
-
 color: #757575;
 
 }
@@ -287,44 +301,3 @@ color: #757575;
 
 /*------------------------portfolio foter-------------*/
 
-.foter-link {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: rgba(255, 255, 255, 0.6);
-margin-left: 215px;
-padding-left: 0px;
-
-}
-.potrfolio-footer {
-    display: flex;
-    flex-direction: column;
-    background: #2F303A;
-}
-.footer-adress{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-margin-left: 215px;
-}
-
-.logo-footer{
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-    color: #FFFFFF;
-    margin-left: 215px;
-}
