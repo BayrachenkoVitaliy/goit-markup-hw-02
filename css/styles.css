@@ -1,7 +1,7 @@
 
 
 body{
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: #212121;
 
@@ -12,9 +12,14 @@ body{
 .list {
      list-style: none;
 }
+.text{
+    text-decoration: none;
+}
 :root{
     --dark-background-maine:#2F303A;
     --blue-maine-color: #2196F3;
+    --gray-maine-color: #757575;
+    --black-maine-color: #212121;
 }
 /*---------------header----------------*/
 
@@ -49,7 +54,7 @@ color: #000000;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-        color: #212121;
+        color:var(--black-maine-color) ;
 }
 .header-link-items:hover,
 .header-link-items:focus
@@ -64,7 +69,7 @@ color: #000000;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--gray-maine-color);
 }
 
 
@@ -107,7 +112,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-
+cursor: pointer;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
@@ -131,7 +136,8 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
-color: #212121;
+color:var(--black-maine-color) ;
+
 
 }
 .benefits-items-text{
@@ -143,7 +149,7 @@ line-height: 1.71;
 
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--gray-maine-color);
 }
 
 /*----------------------activity-----------------*/
@@ -154,11 +160,18 @@ line-height: 1.17;
 
 letter-spacing: 0.03em;
 
-color: #212121;
+color:var(--black-maine-color) ;
+
 
 }
 
 /*------------------------------team --------------*/
+.team{
+    background-color: #F5F4FA;
+}
+.team-items{
+   
+}
 .team-header{
 font-weight: 700;
 font-size: 36px;
@@ -166,7 +179,8 @@ line-height: 1.17;
 
 letter-spacing: 0.03em;
 
-color: #212121;
+color:var(--black-maine-color) ;
+
 
 }
 
@@ -174,12 +188,13 @@ color: #212121;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-
+background-color: #FFFFFF;
 
 
 letter-spacing: 0.03em;
 
-color: #212121;
+color:var(--black-maine-color) ;
+
 
 }
 .team-card-text{
@@ -188,35 +203,36 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
-
+background-color: #FFFFFF;
 
 
 letter-spacing: 0.03em;
 
-color: #757575;
+color:var(--gray-maine-color);
 
 }
+/*------------footer-----*/
 .foter-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    margin-left: 215px;
-    padding-left: 0px;
+    
     
     }
-    .potrfolio-footer {
-       
-        background: #2F303A;
+    .footer{ 
+        background-color: #2F303A;
     }
     .footer-adress{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    margin-left: 215px;
+        
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        
+        letter-spacing: 3%;
+        
+        color:  #FFFFFF; 
     }
     
     .logo-footer{
@@ -227,19 +243,25 @@ color: #757575;
     line-height: 1.19;
     letter-spacing: 0.03em;
         color: #FFFFFF;
-        margin-left: 215px;
-    }
+            }
+         .footer-adress:hover,
+         .footer-adress:focus,
+          .foter-link:hover,
+          .foter-link:focus{
+            color: var(--blue-maine-color);
+          }
+
 
 /*----------------------portfolio--------------------------*/
 
 .potrfolio-nav-button{
- 
+ background-color: #F5F4FA;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color:var(--black-maine-color) ;
 cursor: pointer;
 }
 
@@ -259,7 +281,8 @@ line-height: 2;
 
 letter-spacing: 0.06em;
 
-color: #212121;
+color:var(--black-maine-color) ;
+
 
 }
 .potrfolio-items-text{
@@ -268,7 +291,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--gray-maine-color);
 
 }
 
