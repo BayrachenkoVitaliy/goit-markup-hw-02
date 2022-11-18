@@ -31,6 +31,9 @@ body{
     
     width:  280px;
 }
+.header-link .header-link-items.current {
+    color:var(--blue-maine-color);
+}
 
 .logo-web{
     font-family: var(--secondery-fontfamily);
@@ -177,7 +180,6 @@ color:var(--black-maine-color) ;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-background-color: #FFFFFF;
 letter-spacing: 0.03em;
 color:var(--black-maine-color) ;
 }
@@ -185,7 +187,6 @@ color:var(--black-maine-color) ;
  font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
-background-color: #FFFFFF;
 letter-spacing: 0.03em;
 color:var(--gray-maine-color);
 }
